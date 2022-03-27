@@ -1,0 +1,286 @@
+html,body{
+	font-family: 'Vazir';
+
+
+
+}
+
+a{
+	text-decoration: none;
+color: rgba(255, 255, 255, 0.568);
+}
+
+.menu{
+	cursor: pointer;
+
+height: 50%;
+filter: invert(1) hue-rotate(180deg);
+width: 6.5vh;
+
+}
+
+
+
+nav{
+
+   top: 0;
+
+background-color: blueviolet;
+
+justify-content: right;
+
+display: flex;
+
+position: fixed;
+
+
+width: 100%;
+}
+
+
+
+
+.closemenu{
+
+display: none;
+
+
+cursor: pointer;
+
+border-radius: 50vh;
+}
+
+
+
+h1.s{
+background-color: rgba(0, 0, 0, 0.87);
+
+
+width: 40%;
+
+padding: 1.1rem;
+
+
+margin: 0 0 0 9rem;
+
+
+
+text-align: right;
+
+
+
+
+
+}
+
+
+
+ul{
+	position: fixed;
+width: 100%;
+display: none;
+
+	margin-top: 7rem;
+}
+
+
+
+
+a:hover{
+
+
+
+	color: #fff;
+}
+	
+
+
+
+.sect{
+
+margin-top: 3rem;
+
+
+
+
+
+}
+
+	
+img.dslorem{
+
+width: 100%;
+
+
+
+}
+
+
+
+
+
+h1.lorem,p.lore{
+
+color: #fff;
+
+
+text-align: center;
+   
+
+mix-blend-mode:lighten;
+
+margin: -8rem 1rem -2rem 1rem;
+line-height: 1.5rem;
+
+}
+
+
+
+.he{
+
+height: 10vh;
+border-radius: 50vh;
+
+margin: 0 0 0 11.5rem;
+margin-top: 15rem;
+
+
+
+}
+
+
+.seee{
+
+
+	line-height: 1.4rem;
+  
+margin-top:1rem;
+
+text-align: center;
+
+}
+
+
+
+
+footer{
+
+color: rgb(255, 250, 250);
+margin-bottom: 0;
+margin-top: 1.5rem;
+	background-color: rgba(39, 33, 33, 0.836);
+}
+
+
+h2{
+text-align: left;
+
+
+
+	padding: 1.5rem;
+}
+
+.copy{
+
+
+color: orange;
+padding: 1.5rem;
+text-align: center;
+font-size: 1.2rem;
+font-weight: bold;
+
+}
+
+
+
+.top{
+
+  
+border-radius: 50vh;
+right: 0;
+position:fixed;
+height: 8vh;
+bottom: 0;
+cursor: pointer;
+
+}
+
+.loaded{
+
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+
+
+.loading-page{
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255,.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		z-index: 0;
+	display: none;
+	transition: ease all .5s;
+	
+	}
+
+
+
+
+
+
+
+
+
+.loading-circle{
+
+width: 50px;
+height: 50px;
+border: 2px solid blue;
+border-radius: 50vh;
+border-bottom: none;
+border-left: none;
+transform: rotate(0);
+animation-name: loader;
+animation-iteration-count: infinite;
+animation-duration: .5s;
+animation-timing-function: linear;}
+
+
+
+@keyframes loader{
+	from{transform: rotate(0);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+
+
+@media (prefers-color-scheme:dark){
+	body{background-color: #2a2438;
+	color: #fff;
+}
+nav{
+	background-color: #5c5470;
+}
+
+}
