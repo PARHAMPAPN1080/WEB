@@ -35,7 +35,7 @@ p{
 }
 
 input{
-    width: 25vh;text-align:right ;font-family: 'Vazir';
+    width: 25vh;text-align:right ;font-family: 'Vazir';padding:.5rem;margin-right:1rem;
 }
 ::placeholder{
     font-family: 'Vazir';
