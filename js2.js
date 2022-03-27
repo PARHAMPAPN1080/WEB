@@ -32,7 +32,7 @@ setTimeout(show,70)
 show()
 
 
-function D(){
+function Ds(){
 Notification.requestPermissiom()
     .then(function Shownotification(){var no=new Notification("سلام",{body:"درحال برسی فرم",icon:"4k.jpg"}
                                                               );
