@@ -33,6 +33,11 @@ show()
 
 
 function D(){
-alert('باموفقیت انجام شد')
+Notification.requestPermission()
+    .then(function showNotification(){
+    var mynotfe=new Ntification('سلام',{body:'درحال برسی فرم',
+                                        icon:"./img/4k.jpg"}
+                                );
+})
 
 }
