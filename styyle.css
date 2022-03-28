@@ -2,7 +2,7 @@ html,body{
 	font-family: 'Vazir';
 
 
-
+margin:0;padding:0;
 }
 
 
@@ -22,7 +22,7 @@ background-color: blueviolet;
 display: flex;
 
 justify-content: right;
-
+list-style:none;
 
 
 position: fixed;
