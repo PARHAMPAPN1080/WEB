@@ -91,6 +91,15 @@ show()
 
 
 
+Notification.requestPermission()
+.then(function showw(){
+    var notf=new Notification(
+        'سلام',{
+            body:"خوش آمدید",
+            icon:"4k.jpg"
+        }
+    )
+})
 
 
 
