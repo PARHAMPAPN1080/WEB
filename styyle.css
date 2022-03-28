@@ -12,14 +12,15 @@ img.menu,img.closemenu{
 display: none;
 
 }
-
+nav{
+	margin-button:-1rem}
 
 
 ul{
 
 background-color: blueviolet;
 
-display: flex;margin-button:-1rem
+display: flex;
 
 justify-content: right;
 list-style:none;
