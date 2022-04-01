@@ -104,3 +104,8 @@ Notification.requestPermission()
 
 
 
+window.onbeforeunload = function(event){
+
+
+    document.getElementById('loader').style.display='block'
+}
