@@ -2,18 +2,17 @@ html,body{
 	font-family: 'Vazir';
 
 
-margin:0;padding:0;
+
 }
 
 
 
-img.menu,img.closemenu{
+i.sss,i.s{
 
 display: none;
 
 }
-nav{
-	    margin-bottom: -1rem;}
+
 
 
 ul{
@@ -23,7 +22,7 @@ background-color: blueviolet;
 display: flex;
 
 justify-content: right;
-list-style:none;
+
 
 
 position: fixed;
@@ -32,7 +31,7 @@ position: fixed;
 width: 100%;
 
 }
-#hell{margin-right:'2rem'
+
 
 h1.s{
 
@@ -181,56 +180,7 @@ margin-top: 10rem;
     text-align: center;padding: 2rem;
     font-size: 1.3rem;
 }
-.loaded{
 
-	opacity: 0;
-	visibility: hidden;
-}
-
-
-
-
-.loading-page{
-position: absolute;
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: rgba(255, 255, 255,.9);
-display: flex;
-justify-content: center;
-align-items: center;
-
-	padding: 0;
-	margin: 0;
-	height: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 0;
-display: none;
-transition: ease all .5s;
-
-}
-
-
-.loading-circle{
-
-width: 50px;
-height: 50px;
-border: 2px solid blue;
-border-radius: 50vh;
-border-bottom: none;
-border-left: none;
-transform: rotate(0);
-animation-name: loader;
-animation-iteration-count: infinite;
-animation-duration: .5s;
-animation-timing-function: linear;
-}
 
 
 
@@ -252,6 +202,4 @@ animation-timing-function: linear;
     
     }
 
-#loader{
-	display: none;
-}
+
