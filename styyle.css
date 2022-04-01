@@ -252,4 +252,6 @@ animation-timing-function: linear;
     
     }
 
-
+#loader{
+	display: none;
+}
